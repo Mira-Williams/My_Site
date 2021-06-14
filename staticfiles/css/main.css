@@ -32,3 +32,8 @@ ul.social-links, li#social{
 	width:20px;
 	height: 20px;
 }
+
+.bullet{
+	/* color: blue !important;  */
+	color: blue; 
+}

@@ -23,9 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'grbaqxf3&*^rohdhgtp01aq%3d!1&%d8pga^@a!p_15y367o@m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['mirawilliams-site.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['mirawilliams-site.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition

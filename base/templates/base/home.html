@@ -3,103 +3,122 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Mira Williams</title>
-	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	
-</head>
-<body>
-	<br>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="card card-body h-100 border-info" id="profile-wrapper">
-					<img id="profile-pic" src="{% static 'images/prof_pic_2.jpg' %}" >
-					<hr>
-					<h4>Hi, I'm Mira!</h4>
-					<p>I love coding, learning new skills and applying to jobs</p>
-				</div>
-			</div>
-
-			<div class="col-md-9">
-				<div class="card card-body h-100 border-info">
-					<h4>My Start into Coding</h4>
-					<hr>
-					<p>While working at my job doing somewhat monotonous data entry, I figured out a way to program a relatively simple macro program which recorded key strokes and achieved the same task in 1/100th of the time.</p>
-
-					<p>This task was assigned to me and several other employees, however after they saw how much faster this program got the job done I became the only employee needed to do what previously took 4-5 people to accomplish.</p>
-
-					<p>It was this point that really piqued my interest in learning coding, and I haven't looked back since.</p>
-
-					<ul class="social-links">
-						<li id='social'><img class="social" src="{% static 'images/facebook.png' %}"></li>
-						<li id='social'><img class="social" src="{% static 'images/linkedin.png' %}"></li>
-						<li id='social'><img class="social" src="{% static 'images/twitter.png' %}"></li>
-						<li id='social'><img class="social" src="{% static 'images/youtube.png' %}"></li>
-					</ul>
-
-				</div>
-			</div>
-		</div>
+	<head>
+		<title>Mira Williams</title>
+		<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+	</head>
+	<body>
 		<br>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="card card-body h-100 border-info">
-					<h5>My Experience and Education</h5>
-					<hr>
-					<p> <strong>Recent Graduate of Coding Dojo Python Stack</strong> </p>
-					<p>Completed full stack web development program utilizing the Django framework.</p>
-					<p> <strong>Software / Web Dev internship</strong> </p>
-					<p>Secured a 6 month internship at my work focusing on development of their backend customer service software. Also personally launched two new company sites with Wordpress.</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="card card-body h-100 border-info" id="profile-wrapper">
+						<img id="profile-pic" src="{% static 'images/prof_pic_2.jpg' %}" >
+						<hr>
+						<h4>Hi, I'm Mira!</h4>
+						<p>I love coding, learning new skills and applying to jobs</p>
 					</div>
-			</div>
+				</div>
 
-			<div class="col-md-6">
-				<div class="card card-body h-100 border-info">
-					<h5>What I Know</h5>
+				<div class="col-md-9">
+					<div class="card card-body h-100 border-info">
+						<h4>My Start into Coding</h4>
+						<hr>
+						<p>While working at my job doing somewhat monotonous data entry, I figured out a way to program a relatively simple macro program which recorded key strokes and achieved the same task in 1/100th of the time.</p>
+
+						<p>This task was assigned to me and several other employees, however after they saw how much faster this program got the job done I became the only employee needed to do what previously took 4-5 people to accomplish.</p>
+
+						<p>It was this point that really piqued my interest in learning coding, and I haven't looked back since.</p>
+
+						<ul class="social-links">
+							<li id='social'><img class="social" src="{% static 'images/facebook.png' %}"></li>
+							<li id='social'><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+							<li id='social'><img class="social" src="{% static 'images/twitter.png' %}"></li>
+							<li id='social'><img class="social" src="{% static 'images/youtube.png' %}"></li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="card card-body h-100 border-info">
+						<h5>My Experience and Education</h5>
+						<hr>
+						<p> <strong>Recent Graduate of Coding Dojo Python Stack</strong> </p>
+						<p>Completed full stack web development program utilizing the Django framework.</p>
+						<p> <strong>Software / Web Dev internship</strong> </p>
+						<p>Secured a 6 month internship at my work focusing on development of their backend customer service software. Also personally launched two new company sites with Wordpress.</p>
+						</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="card card-body h-100 border-info">
+						<h5>What I Know</h5>
+						<hr>
+						<ul>
+							<li>Python</li>
+							<li>Javascript</li>
+							<li>Django</li>
+							<li>HTML/CSS</li>
+							<li>CherryPy</li>
+							<li>SQL</li>
+							<li>JQuery</li>
+							<li>Ajax</li>
+							<li>Wordpress</li>
+							<li>Pygame</li>
+						</ul>
+
+						<p>Always striving to add more!</p>
+
+						<!-- <h5>Rhema App</h5>
+						<p class='mb-2'>Application I created that provides a randomized Bible verse in a fun slot machine style.</p>
+						<a href="rhema-app.herokuapp.com">
+							rhema-app.herokuapp.com
+						</a> -->
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card card-body h-100 border-info">
+						<h5>Rhema App</h5>
+						<hr>
+						<p class='mb-2'>
+							Application I created that provides a randomized Bible verse in a fun slot machine style.
+						</p>
+						<a href="rhema-app.herokuapp.com">
+							rhema-app.herokuapp.com
+						</a>
+
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="card card-body h-100 border-info">
+						<h5>How I Learn</h5>
+						<hr>
+
+						<p>Of course everyone enjoys learning in person one on one or in a group, but I also excel in learning on my own and completing the needed research to get a task done.</p>
+						<p>My experience at both Coding Dojo which was completely online, and at my internship gave me the necessary skills not only in what I currently know, but also the ability to gain more.</p>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="card card-body h-100 border-info">
+						<h5>My Short Term Goals</h5>
 					<hr>
-					<ul>
-						<li>Python</li>
-						<li>Javascript</li>
-						<li>Django</li>
-						<li>HTML/CSS</li>
-						<li>CherryPy</li>
-						<li>SQL</li>
-						<li>JQuery</li>
-						<li>Ajax</li>
-						<li>Wordpress</li>
-						<li>Pygame</li>
-					</ul>
-					<!-- <p>Python, Javascript, Django, HTML/CSS, CherryPy, SQL, JQuery, Ajax, Wordpress, Pygame</p> -->
-					<p>Always striving to add more!</ps>
+					<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+
+					</div>
 				</div>
 			</div>
+			<br>
 		</div>
-		<br>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="card card-body h-100 border-info">
-					<h5>How I Learn</h5>
-					<hr>
-
-					<p>Of course everyone enjoys learning in person one on one or in a group, but I also excel in learning on my own and completing the needed research to get a task done.</p>
-					<p>My experience at both Coding Dojo which was completely online, and at my internship gave me the necessary skills not only in what I currently know, but also the ability to gain more.</p>
-				</div>
-			</div>
-
-			<div class="col-md-6">
-				<div class="card card-body h-100 border-info">
-					<h5>My Short Term Goals</h5>
-				<hr>
-				<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
-
-				</div>
-			</div>
-		</div>
-		<br>
-	</div>
 
 
-</body>
+	</body>
 </html>
